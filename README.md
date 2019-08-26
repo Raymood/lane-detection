@@ -30,5 +30,11 @@ As you can see the projected image looks a bit larger compared to the original i
 
 ![](/images/images/warpped_cut.png)
 
-### 4. Sliding_window ###
+### 4.Sliding_window ###
 ![](/images/images/sliding_window.png)
+
+### 5.Draw polyline ###
+![](/images/images/poly.png)
+
+### 6.Back-projection ###
+![](/images/images/final.png)
