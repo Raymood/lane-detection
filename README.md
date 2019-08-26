@@ -10,3 +10,6 @@ The steps to successfully implement the whole process are as follows:
 * Determine the curvature of the lane as well as vehicle position with respect to center of the lane.
 * Project the mask back to the original image.
 * Visualize the output and predict the turn based on the curvature computed previously. 
+
+## Pipeline demostration ##
+### 1.Undistortion ###
