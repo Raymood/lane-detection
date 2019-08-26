@@ -28,4 +28,7 @@ To maximally extract the line of the lane, I applied thresholding on two color s
 ![](/images/images/warpped.png)
 As you can see the projected image looks a bit larger compared to the original image. That is because the original projection may miss the part of the edges when the vehicle is making turns.
 
+![](/images/images/warpped_cut.png)
+
 ### 4. Sliding_window ###
+![](/images/images/sliding_window.png)
