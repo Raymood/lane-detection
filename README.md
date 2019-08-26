@@ -13,3 +13,19 @@ The steps to successfully implement the whole process are as follows:
 
 ## Pipeline demostration ##
 ### 1.Undistortion ###
+#### Original image: ####
+![](/images/images/original.png)
+
+#### Undistorted image: ####
+![](/images/images/ori_undist.png)
+
+### 2.Thresholding ###
+To maximally extract the line of the lane, I applied thresholding on two color spaces, which are HSV and HLS respectively. Also to include the missing part from the thresholding, I implemented Sobel on the image as well to get the gradients. The combined binary image is as follows: 
+
+![](/images/images/threshold.png)
+
+### 3.Homography ###
+![](/images/images/warpped.png)
+As you can see the projected image looks a bit larger compared to the original image. That is because the original projection may miss the part of the edges when the vehicle is making turns.
+
+### 4. Sliding_window ###
